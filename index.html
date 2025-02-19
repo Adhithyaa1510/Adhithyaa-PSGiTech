@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Table</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Products List</h1>
+        </div>
+        <div class="table-container">
+            <table id="productsTable">
+                <thead>
+                    <tr>
+                        <th data-sort="id">ID <span class="sort-icon">↕</span></th>
+                        <th>Image</th>
+                        <th data-sort="title">Title <span class="sort-icon">↕</span></th>
+                        <th data-sort="price">Price <span class="sort-icon">↕</span></th>
+                        <th data-sort="category">Category <span class="sort-icon">↕</span></th>
+                        <th data-sort="rating.rate">Rating <span class="sort-icon">↕</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Products will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
